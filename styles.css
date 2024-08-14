@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sub-nav {
+    background-color: #008900;
+    padding: 10px;
+    text-align: end;
+}
+
+nav {
+    background-color: #009b00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo a {
+    font-size: 30px;
+    color: #fecc00;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.logo {
+    flex: 1;
+}
+
+.nav-items {
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+}
